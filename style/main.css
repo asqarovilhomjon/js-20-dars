@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    background: #626161;
+}
+.container{
+    text-align: center;
+    max-width: 1348px;
+    width: 100%;
+    padding: 0 18px;
+    margin: 0 auto;
+}
+.text{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #000;
+}
+span, a, li{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    justify-content: end;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 5px 50px;
+  background-color: rgb(0, 119, 255);
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  transition: .5s;
+  &:active{
+    transform: scale(.9);
+  }
+  
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    min-width: 350px;
+    min-height: 560px;
+    max-height: 560px;
+    width: calc(24% - 30px);
+    /* background: #0006; */
+    display: flex;
+    padding:0 0 40px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #0004;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+    /* transition: .5s; */
+    transform: scale(1.01);
+    }
+    &:hover.button{
+      display: block;
+    }
+}
+img{
+    max-width: 200px;
+    transition: .5s;
+    overflow: hidden;
+    &:hover{
+        transform: scale(1.01);
+    }
+}
+/*  */
+
+
+.desc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+  padding: 0 10px;
+}
+button{
+  display: flex;
+  margin: auto;
+  
+}
+
+
+.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+
+
+.price{
+  color: rgb(21, 9, 129);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.category{
+    color: rgb(55, 55, 55);
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.description{
+  font-size: 18px;
+  margin: 1px 0;
+  font-weight: 500;
+  color: #3d3d3d;
+}
