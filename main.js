@@ -1,4 +1,3 @@
-// alert ("Assalomu Alekum")
 const API__PRODUCTS = "https://dummyjson.com"
 const wrapper = document.querySelector(".wrapper")
 const loading = document.querySelector(".lds-ring")
